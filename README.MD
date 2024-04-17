@@ -32,8 +32,12 @@ The competition is simple: use machine learning to create a model that predicts 
 Simply navigate to the datasets using either link above and download the files.
 
 ## Data Preprocessing
-Data required minimal preprocessing.  
-The competition is setup to be a starter, "Hello World" type of introduction to Data Science/Machine Learning/Kaggle competitions. 
+- [titanic_combined_dataset_cleaned_processed.csv](data/titanic_combined_dataset_cleaned_processed.csv)
+    - I combined both train and test to clean and perform EDA
+- [train.cleaned.csv](data/train.cleaned.csv)
+    - modified train.csv file ready for modeling
+- [test.cleaned.csv](data/test.cleaned.csv)
+    - modified test.csv file ready for modeling
 
 # Code structure
 
@@ -48,10 +52,11 @@ The competition is setup to be a starter, "Hello World" type of introduction to 
 ```
 
 # Results and evaluation
-Work in progress
+I was 12,910 with a 0.76076 Score<br>
+This was my first ever solo exploration, I supposed it could have been worse :)
 
 # Future work
-Still a work in progress, however I may revisit this in the future and try again after I have more experience with competitions.
+I may revisit this in the future and try again after I have more experience with competitions.
 
 # Acknowledgments/References
 [Hackers Realm](https://www.youtube.com/@HackersRealm) YouTube channel did a video on this competition and I cross-referenced/checked my work against this video.
